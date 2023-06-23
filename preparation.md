@@ -15,32 +15,39 @@ Seperate preparation into account creation, file downloads, and software downloa
 However, you can format this as you wish.
 An example is provided below.
 -->
-## 1. Create an account
-- Navigate to [website](https://www.google.com) and sign up for an account if you don't already have one.
+## 1. Create a GitHub account
+- [Navigate to GitHub](https://github.com/) and sign up for an account if you don’t already have one.
 - After registering, sign in to your account.
 
-## 2. Get the data
-You will have an opportunity to download the data during the workshop; however, if you would like to do so ahead of time, it can be downloaded [here](https://www.google.com).
+## 2. Install Git
+- [Navigate to Git downloads](https://git-scm.com/downloads) and choose your operating system.
+- Follow the instructions provided to download and install Git.
 
-## 3. Get the software
-This hands-on workshop uses [Software Name](https://www.google.com). Please download *Software Name* in advance of the workshop to be able to participate in it to the fullest extent.
+### Installation for Windows users
 
-{: .warning }
-> This is a warning message. You can use to to mention things like:
->
-> - Must be a McMaster Student/Staff to access content/software licenses
-> - Windows/MacOS/Linux is not supported
+When installing Git, choose the following options.
 
-### Windows/Mac Installation
-<!-- Usually, linking to an installation guide on the official website of the software is enough, no need to explain how to install. -->
-<!-- If there are additional steps not covered in the installation guide, include them -->
-- Steps for installation.
+- **Adjusting the name of the initial branch in new repositories**
+  - Override the default branch name for new repositories. Set this to `main`.
+- **Choosing the default editor used by Git**
+  - Choose your preferred editor. If you're unsure, select "Notepad".
+- **Adjusting your PATH environment**
+    - Git from the command line and also from 3rd-party software.
+- **Choosting the SSH executable**
+    - Use bundled OpenSSH.
+- **Choosing HTTPS transport backend**
+    - Use the OpenSSL library.
+- **Configuring the line ending conversions**
+    - Checkout Windows-style, commit Unix-style line endings.
+- **Configuring the terminal emulator to use with Git Bash**
+    - Use MinTTY (the default, terminal of MSYS2).
+- **Choose the default behaviour of 'git pull'**
+    - Default - (fast-forward or merge).
+- **Choose a credential helper**
+    - Git Credential Manager.
+- **Configuring extra options**
+    - Enable file system caching.
+- **Configuring experimental options**
+    - *Do not select anything and click install*
 
-    ![An image to show the step above](assets/img/temporaryInstallationGuide.png)
-
-- More guidance can be found [here](https://www.google.com).
-
-### Linux Installation
-- Steps for installation.
-- More steps for installation.
-- More guidance can be found [here](https://www.google.com).
+When using Git throughout the workshop and in the future, use the Git Bash application.
