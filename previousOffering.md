@@ -15,21 +15,15 @@ Workshop live recordings are provided here. They are an alternative to the works
 <!-- ----------------------------------------------------------------- -->
 
 <details markdown="1">
-<summary>Month Year</summary> <!-- Change "Month Year" with the date of the recording ---> 
-<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/60aeca91-1d04-493f-a94e-ee733efa3520/public"></iframe>
-[View original here.](https://echo360.ca/media/60aeca91-1d04-493f-a94e-ee733efa3520/public)
-
-<embed src="assets/docs/examplePDF.pdf" style="border:none;" width="100%" height="466px">
-[Download as PDF.](assets/docs/examplePDF.pdf)
+<summary>April 2023</summary> <!-- Change "Month Year" with the date of the recording ---> 
+<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/920779d4-4319-49f1-9b3a-d5c9ebb33723/public"></iframe>
+[View original here.](https://echo360.ca/media/920779d4-4319-49f1-9b3a-d5c9ebb33723/public)
 </details>
 
 <!-- ----------------------------------------------------------------- -->
 
 <details markdown="1">
-<summary>Month Year</summary>
-<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/60aeca91-1d04-493f-a94e-ee733efa3520/public"></iframe>
-[View original here.](https://echo360.ca/media/60aeca91-1d04-493f-a94e-ee733efa3520/public)
-
-<embed src="assets/docs/examplePDF.pdf" style="border:none;" width="100%" height="466px">
-[Download as PDF.](assets/docs/examplePDF.pdf)
+<summary>October 2021</summary>
+<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/6c617415-72fc-42be-8acd-ce9c7c1dad02/public"></iframe>
+[View original here.](https://echo360.ca/media/6c617415-72fc-42be-8acd-ce9c7c1dad02/public)
 </details>
