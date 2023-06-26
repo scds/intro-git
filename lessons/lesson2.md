@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lesson 2 - Lesson Name
+title: Lesson 2 - Connecting Git to GitHub
 nav_order: 2
 parent: Lessons
 ---

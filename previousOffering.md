@@ -10,7 +10,9 @@ parent: Home
 
 
 # Previous Offerings
-Workshop live recordings are provided here. They are an alternative to the workshop content provided on the website.
+
+{: .warning }
+Workshop live recordings are listed here. They are provided as an **alternative** to the workshop content provided on here. They are **not** required.
 
 <!-- ----------------------------------------------------------------- -->
 
