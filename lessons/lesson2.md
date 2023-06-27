@@ -89,9 +89,14 @@ Pull
 
 ### Pushing to GitHub
 
-Let's make some changes to our `note.txt`. Add a line, remove a line, whatever you'd like.
+Let's make some changes to our `note.txt`. Add a line of text, remove a line, perhaps rename the file!
 
-Create a commit with `git commit`. 
+Commit your changes.
+
+{: .note-title }
+> Reminder
+> 
+> First you have to add your changes, then commit.
 
 If you'll take a look at the remote repository on GitHub, you'll notice that `note.txt` has not changed since your commit locally. That's because we have not yet pushed our changes.
 
@@ -101,23 +106,31 @@ To push our changes, we use the `git push` command.
 git push
 ```
 
-Now, the changes made to `note.txt` will appear in GitHub.
+Now, the changes made to `note.txt` should appear in GitHub.
 
 ### Pulling to your Local Repository
 
 While we've only been making changes to our repository locally, we can also make changes on the GitHub web interface as well.
 
 - Go back to your GitHub web interface and select the `note.txt` file.
-- Click on the pencil icon at the top right, and edit the file.
-- Commit your changes.
 
-Of course, if we look at our `git log`, we'll see that our newest commit has not shown up yet. That's because we need to pull the changes down using the `git pull` command.
+<img alt="selecting note.txt file in github interface" width="100%" src="../assets/img/lessons/github5.png">
+
+- Click on the pencil icon at the top right to edit the file.
+
+<img alt="clicking on the edit button for note.txt" width="100%" src="../assets/img/lessons/github6.png">
+
+- Edit the file by adding lines or removing lines of text and commit your changes.
+
+<img alt="editing note.txt file in github interface" width="100%" src="../assets/img/lessons/github7.png">
+
+Of course, if we look at the `git log` in our terminal, we'll see that our newest commit has not shown up yet. That's because we need to pull the changes down using the `git pull` command.
 
 ```bash
 git pull
 ```
 
-Now you should see all your commits in `git log`.
+After a couple lines of output, your local repository should be synced up with your remote repository! You should also be able to see the new commits in `git log`.
 
 {: .note }
 It's recommended to always pull before making any commits and changes. This reduces the chance of any nasty merge conflicts, which we won't cover in this module.

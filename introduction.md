@@ -22,13 +22,13 @@ Add, edit, or remove any content below for the workshop in question.
 <!-- Below the video/slides, this is where you put the text version of the page. -->
 ## What is Version Control?
 
-Before we talk about Git, let's talk about version control. Keeping track of changes and versions of *things*, whether it be books, files, software, projects, etc., is known as version control. Although not recommended, version control can be done manually.
+Before we talk about Git, let's talk about version control. Keeping track of changes and versions of *things*, whether it be books, files, software, projects, or just about anything, is known as version control. Although not recommended, version control can be done manually.
 
 <img alt="A folder full of different versions of the same file" width="75%" src="assets/img/introduction/introduction1.png">
 
 <ins> *Image credit: [PhDComics](https://phdcomics.com/comics.php?f=1323) \| Image © jorge cham* </ins>
 
-However, doing version control manually creates some problems.
+Doing version control manually does create some problems.
 
 - Your work folder will get cluttered really quickly.
 - You may accidentally edit or overwrite the wrong file.
@@ -53,7 +53,7 @@ Backup
 
 ## What is Git and GitHub?
 
-Git and GitHub are often used interchangeably, however they are different things.
+Git and GitHub are often used interchangeably, however, they are different things.
 
 <br>
 
