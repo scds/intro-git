@@ -46,6 +46,8 @@ We need to create a blank repository in GitHub to connect our local Git reposito
 
 <img alt="Filling in the details of our repository" width="65%" src="../assets/img/lessons/github2.png">
 
+## Pushing our Existing Repository
+
 - After creating the repository, you should now see some instructions to create a new repository or push an existing repository.
 - Copy the commands outlined under **...or push an existing repository from the command line** one at a time into your Git terminal.
 
@@ -80,7 +82,7 @@ The repository on your computer is known as your local repository, whereas the r
 In order for the repositories to sync with each other, you have to **push** or **pull** commits.
 
 Push
-: Changes from your local repository will be pushed up to your remote repository
+: Changes from your local repository will be pushed up to your remote repository.
 
 Pull
 : Changes from your remote repository will be pulled down to your local repository.

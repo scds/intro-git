@@ -15,17 +15,18 @@ Add, edit, or remove any content below for the workshop in question.
 
 <!-- Recap your learning objectives from the introductory. -->
 You should now be able to:
-- To do this
-- And this other thing
-- Double check that the learning objectives in the introduction match up!
+- Understand what version control is and why it's useful
+- Create Git repositories and commit changes
+- Push and pull commits between your local and remote repositories
 
 <!-- This is where you can add additional resources for your readers. -->
 # Additional Resources
 To learn more about any particular topic, take a look at the links below.
 
-## Topic
-- Some link
-- Other 
+## Creating Websites on GitHub
+If you're interested in learning how to create and host websites on GitHub see:
+- [Getting Started with GitHub and GitHub Pages](https://scds.github.io/github-pages/) from SCDS.
 
-## Topic 2
-- Other resource
+## More about Version Control with Git
+- [Official Git documentation page](https://git-scm.com/book/en/v2/)
+- [The Smart Ways to Correct Mistakes in Git](https://css-tricks.com/the-smart-ways-to-correct-mistakes-in-git/)

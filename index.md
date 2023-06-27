@@ -30,7 +30,7 @@ In this tutorial, you’ll learn the basics of working with git repositories, ho
 <!-- What will the student learn to do, learn to use, etc. -->
 ## Learning Objectives
 By the end of this workshop, you will be able to:
-- Describe the benefits of versioning and version control systems
+- Describe the benefits of versioning and version control software
 - Understand the differences between git and GitHub
 - Create a git repository and commit changes
 - Push and pull changes between your local repository and your remote repository
