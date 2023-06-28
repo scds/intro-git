@@ -15,7 +15,7 @@ Add, edit, or remove any content below for the workshop in question. -->
 <img src="assets/img/titleSlide.png" alt="Workshop Title Slide" width="100%">
 
 <!-- Main header -->
-# Introduction to Git.
+# Introduction to Git
 
 Come learn about git! Git is a version control system widely used in software engineering, academia, and anywhere where projects need reliable and granular versioning – especially when the projects need to scale to thousands of contributors. 
 
