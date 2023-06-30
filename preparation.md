@@ -50,4 +50,4 @@ When installing Git, choose the following options.
 - **Configuring experimental options**
     - *Do not select anything and click install*
 
-When using Git throughout the workshop and in the future, use the Git Bash application.
+When using Git throughout the workshop and in the future, use the **Git Bash** application.

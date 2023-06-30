@@ -48,8 +48,8 @@ We need to create a blank repository in GitHub to connect our local Git reposito
 
 ## Pushing our Existing Repository
 
-- After creating the repository, you should now see some instructions to create a new repository or push an existing repository.
-- Copy the commands outlined under **...or push an existing repository from the command line** one at a time into your Git terminal.
+- After creating the repository, you should now see some instructions to create a new repository or push an existing one.
+- Copy the commands outlined under **...or push an existing repository from the command line** one line at a time into your Git terminal.
 
 <img alt="Instructions for pushing an existing repository" width="100%" src="../assets/img/lessons/github3.png">
 
@@ -77,7 +77,7 @@ Once that is set up, you can refresh your GitHub page and you should see your "n
 
 ## Pushing and Pulling Commits
 
-The repository on your computer is known as your local repository, whereas the repository on GitHub is known as the remote repository. Changes made in your local repository won't immediately show up in your remote repository, and vice-versa. 
+The repository on your computer is known as your local repository, whereas the repository on GitHub is known as the remote repository. Changes made in your local repository won't immediately show up in your remote repository, and vice versa. 
 
 In order for the repositories to sync with each other, you have to **push** or **pull** commits.
 
@@ -89,7 +89,7 @@ Pull
 
 ### Pushing to GitHub
 
-Let's make some changes to our `note.txt`. Add a line of text, remove a line, perhaps rename the file!
+Let's make some changes to our `note.txt`. Add a line of text, remove a line, or perhaps rename the file.
 
 Commit your changes.
 
@@ -98,7 +98,7 @@ Commit your changes.
 > 
 > First you have to add your changes, then commit.
 
-If you'll take a look at the remote repository on GitHub, you'll notice that `note.txt` has not changed since your commit locally. That's because we have not yet pushed our changes.
+If you take a look at the remote repository on GitHub, you’ll notice that `note.txt` has not changed since your last commit. That’s because we have not yet pushed our changes.
 
 To push our changes, we use the `git push` command.
 
@@ -120,7 +120,7 @@ While we've only been making changes to our repository locally, we can also make
 
 <img alt="clicking on the edit button for note.txt" width="100%" src="../assets/img/lessons/github6.png">
 
-- Edit the file by adding lines or removing lines of text and commit your changes.
+- Edit the file by adding or removing lines of text, and commit your changes.
 
 <img alt="editing note.txt file in github interface" width="100%" src="../assets/img/lessons/github7.png">
 
@@ -133,7 +133,7 @@ git pull
 After a couple lines of output, your local repository should be synced up with your remote repository! You should also be able to see the new commits in `git log`.
 
 {: .note }
-It's recommended to always pull before making any commits and changes. This reduces the chance of any nasty merge conflicts, which we won't cover in this module.
+It's recommended to always pull before making any commits or changes. This reduces the chance of any nasty merge conflicts, which we won't cover in this module.
 
 ## Key Points / Summary
 

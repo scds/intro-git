@@ -13,7 +13,7 @@ Add, edit, or remove any content below for the workshop in question. -->
 {: .no_toc}  
 # Lesson 1 - Using Git
 
-99% of the time, you will be using the same 6 or so Git commands. Starting to learn Git is hard, but it gets a lot easier after you get past the entry barrier.
+99% of the time, you will be using the same six or so Git commands. Starting to learn Git is hard, but it gets a lot easier after you get past the entry barrier.
 
 <!-- This is your table of contents. You don't need to touch it, it automatically creates it when you add or remove headers. If you do not want a header to be included, put {: .no_toc } above the header line, as you can see above with Lesson 1 - Lesson Name. Make sure that there's also an empty line above {: .no_toc }... Markdown is picky about this :( -->
 <details markdown="block">
@@ -43,11 +43,11 @@ The following video demonstrates each of the steps outlined below in text.
 
 Open up your shell terminal window (or Git Bash if you're on Windows). This is where we'll be interacting with Git.
 
-Before we start using Git, we need to set up some config options. If you're on Windows, it's possible that most of the settings are already set up, but it's always good to double check.
+Before we start using Git, we need to set up some configuration options. If you're on Windows, it's possible that most of the settings are already set up, but it's always good to double check.
 
 ### Git Config - Viewing Current Config
 
-To view our current Git configuration, use the following command:
+To view our current Git config, use the following command:
 
 ```bash
 git config --list
@@ -57,7 +57,7 @@ Depending on your OS and whether or not you've used Git before, it's possible th
 
 ### Git Config - Username and Email
 
-The first settings we want to set up is our Git username and email. Your Git username will be used to record the author of any changes made.
+The first settings we want to set up are our Git username and email. Your Git username will be used to record the author of any changes made.
 
 {: .warning }
 Make sure to use the same email you used when creating your GitHub account.
@@ -67,7 +67,7 @@ git config --global user.name "Your Name"
 git config --global user.email "yourname@domain.name"
 ```
 
-Simply replace "Your Name" with your desired username, and "yourname@domain.name" with your email. If there is no output, that means the command succeeded. This is often the case with command-line interfaces.
+Simply replace "Your Name" with your desired username and "yourname@domain.name" with your email. If there is no output, that means the command succeeded. This is often the case with command-line interfaces.
 
 Now, if you check the config list again, you should see that your username and email are set.
 
@@ -91,7 +91,7 @@ user.email=yourname@domain.name
 
 ### Git Config - Default Text Editor
 
-Occasionally when using Git, it'll ask you to edit text in a text editor. By default, Git uses Vim, a text editor within the command-line interface. This is a popular choice by many, but it's also difficult to learn and use if you're new to the command-line interface. 
+Occasionally, when using Git, it'll ask you to edit text in a text editor. By default, Git uses Vim, a text editor within the command-line interface. This is a popular choice for many, but it's also difficult to learn and use if you're new to the command-line interface. 
 
 To set up a custom text editor, we have to change the `core.editor` config setting. On Windows, Notepad is a popular option. MacOS and Linux users may prefer the `nano -w` setting.
 
@@ -107,9 +107,9 @@ git config --global core.editor "nano -w"
 
 By default, Git uses the term "master" to refer to the default branch. 
 
-Don't worry if you don't know what a branch is, we won't cover branches because they're out of scope for the purposes of this workshop. To quickly define a branch, think of them as a seperate area of development. The master branch is where the "release" version of content is held, and more branches can be made to add more features or content to the project without disrupting the master branch. Once the new feature is finished, it can be merged into the master branch.
+Don't worry if you don't know what a branch is; we won't cover branches because they're out of scope for the purposes of this workshop. To quickly define a branch, think of them as a  separate area of development. The master branch is where the "release" version of content is held, and more branches can be made to add more features or content to the project without disrupting the master branch. Once the new feature is finished, it can be merged into the master branch.
 
-However, GitHub and most developers nowadays have started to name the default branch as the "main" branch. To prevent any issues with GitHub, we will change the default branch name to be "main" using the `init.defaultBranch` config.
+However, GitHub and most developers nowadays have started to name the default branch as the "main" branch. To prevent any issues with GitHub, we will change the default branch name to  "main" using the `init.defaultBranch` config.
 
 ```bash
 git config --global init.defaultBranch "main"
@@ -119,9 +119,9 @@ git config --global init.defaultBranch "main"
 
 Now that Git is set up, we can go ahead and start using Git! 
 
-Let's start by creating a new directory, which will be where we'll store our "project". Once again, while Git is mostly used for software projects, it can be used for writing books, journals, storing data, and more.
+Let's start by creating a new directory, which will be where we'll store our "project". Once again, while Git is mostly used for software projects, it can also be used for writing books, journals, storing data, and more.
 
-You can do this in however way you want, in a Documents folder, on your desktop, or wherever. If you want to do it using the command line interface, you can use the `ls` command to list the directories and files in your current working directory.
+You can do this in however way you want, in a Documents folder, on your desktop, or wherever. If you want to do it using the command-line interface, you can use the `ls` command to list the directories and files in your current working directory.
 
 ```bash
 ls
@@ -148,7 +148,7 @@ To initialize a Git repository, we need to use the `git init` command.
 git init
 ```
 
-Your directory should now be a Git repository. If you can't find the `.git` folder, that's alright. It's hidden by default and you're never meant to go in it and edit the files.
+Your directory should now be a Git repository. If you can't find the `.git` folder, that's alright. It’s hidden by default as you’re not meant to go in there and edit the files.
 
 ## Displaying a Repository's Status
 
@@ -207,13 +207,13 @@ nothing added to commit but untracked files present (use "git add" to track)
 ```
 </div>
 
-Git automatically detected that there have been changes made (creation of note.txt), but it says that it's untracked. To add it to our tracked files, we need to use `git add`.
+Git automatically detected that there have been changes made (creation of note.txt), but it says that they're untracked. To add it to our tracked files, we need to use `git add`.
 
 ```bash
 git add note.txt
 ```
 
-This adds our `note.txt` file into the staging area. The staging area is the area that Git checks for files to commit/save. We can check this using `git status` again.
+This adds our `note.txt` file into the staging area. The staging area is the area where Git checks for files to commit or save. We can check this using `git status` again.
 
 <div class="code-example" markdown="1">
 
@@ -237,7 +237,7 @@ Changes to be committed:
 ```
 </div>
 
-Now our file is ready to be commited and saved. Before we do that, let's add some text to the `note.txt` file and see how Git responds to it. You can add the text to `note.txt` using any means you wish.
+Now our file is ready to be committed and saved. Before we do that, let's add some text to the `note.txt` file and see how Git responds to it. You can add the text to `note.txt` using any means you wish.
 
 Once that is done, do `git status` again.
 
@@ -275,7 +275,7 @@ Git recognizes that `note.txt` has been modified, but it hasn't added it to our 
 git add note.txt
 ```
 
-Now that we've added all our changes to the staging area, let's create our first commit. When commiting changes, Git will keep track of the author of the commit, the current time and date, and any changes made to the project. To commit our changes, we use the `git commit -m "message"` command, where we replace "message" with our own message.
+Now that we've added all our changes to the staging area, let's create our first commit. When committing changes, Git will keep track of the author of the commit, the current time and date, and any changes made to the project. To commit our changes, we use the `git commit -m "message"` command, where we replace "message" with our own message.
 
 <div class="code-example" markdown="1">
 
@@ -321,7 +321,7 @@ Date:   Mon Jun 26 14:39:50 2023 -0400
 
 Let's create another commit to see how `git log` changes. Edit `note.txt` again in whatever way you'd like. 
 
-If you simply want to add **all** changes and commit in one line, use `git commit -ma "message"`. This will stage all changes and commit them.
+If you simply want to add **all** changes and commit them in one line, use `git commit -ma "message"`. This will stage all changes and commit them.
 
 <div class="code-example" markdown="1">
 

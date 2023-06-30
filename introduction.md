@@ -28,7 +28,7 @@ Before we talk about Git, let's talk about version control. Keeping track of cha
 
 <ins> *Image credit: [PhDComics](https://phdcomics.com/comics.php?f=1323) \| Image © jorge cham* </ins>
 
-Doing version control manually does create some problems.
+Manual version control does create some problems.
 
 - Your work folder will get cluttered really quickly.
 - You may accidentally edit or overwrite the wrong file.
@@ -61,7 +61,7 @@ Git and GitHub are often used interchangeably, however, they are different thing
 
 ### Git
 
-Git is one of the most used version control systems around. It's used by big companies and individuals alike. Traditionally, Git is used in a command-line interface. However, many graphical interface tools based on Git have been created, providing an easier way for many to interact with Git. While these tools make it easier to use Git, using a command-line interface can usually give you more power than any graphical interface can.
+Git is one of the most popular version control systems around. It's used by big companies and individuals alike. Traditionally, Git is used in a command-line interface. However, many graphical interface tools based on Git have been created, providing an easier way for many to interact with Git. While these tools make it easier to use Git, using a command-line interface can usually give you more power than any graphical interface can.
 
 <br>
 
@@ -69,4 +69,4 @@ Git is one of the most used version control systems around. It's used by big com
 
 ### GitHub
 
-GitHub, on the other hand, is a web service for using and sharing Git repositories that has a mixture of free and paid services. Some of these services include the creation of wikis, trouble ticket systems, and even web hosting. The majority of content on GitHub is open source software projects, however it's increasingly being used to host open data, books, journals, and websites. While GitHub is one of the more popular web services for Git, there exist others, like [GitLab](https://about.gitlab.com/), [BitBucket](https://bitbucket.org/), and [Gitee](https://gitee.com/).
+GitHub, on the other hand, is a web service for using and sharing Git repositories that has a mixture of free and paid services. Some of these services include the creation of wikis, trouble ticket systems, and even web hosting. The majority of content on GitHub is open source software projects; however, it's increasingly being used to host open data, books, journals, and websites. While GitHub is one of the more popular web services for Git, there are others, like [GitLab](https://about.gitlab.com/), [BitBucket](https://bitbucket.org/), and [Gitee](https://gitee.com/).
