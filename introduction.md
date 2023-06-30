@@ -22,7 +22,7 @@ Add, edit, or remove any content below for the workshop in question.
 <!-- Below the video/slides, this is where you put the text version of the page. -->
 ## What is Version Control?
 
-Before we talk about Git, let's talk about version control. Keeping track of changes and versions of *things*, whether it be books, files, software, projects, or just about anything, is known as version control. Although not recommended, version control can be done manually.
+Before we begin talking about Git, let's talk about version control. Keeping track of changes and versions of *things*, whether it be books, files, software, projects, or just about anything, is known as version control. Although not recommended, version control can be done manually.
 
 <img alt="A folder full of different versions of the same file" width="75%" src="assets/img/introduction/introduction1.png">
 

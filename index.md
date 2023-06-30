@@ -21,6 +21,9 @@ Come learn about Git! Git is a version control system widely used in software en
 
 In this tutorial, you’ll learn the basics of working with Git repositories, how to sync your local repository to GitHub, and more!
 
+Presentation by John Fink, Digital Scholarship Librarian.  
+[Book an appointment with John or another member of the SCDS Team.](https://libcal.mcmaster.ca/appointments/)
+
 ## Prerequisites
 
 <!-- If creating or installing is covered in the module (preparation), mention that in brackets. -->

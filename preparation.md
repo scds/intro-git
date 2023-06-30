@@ -23,7 +23,7 @@ An example is provided below.
 - [Navigate to Git downloads](https://git-scm.com/downloads) and choose your operating system.
 - Follow the instructions provided to download and install Git.
 
-### Installation for Windows users
+### Extra Information for Windows users
 
 When installing Git, choose the following options.
 

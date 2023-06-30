@@ -36,7 +36,7 @@ We need to create a blank repository in GitHub to connect our local Git reposito
 - If you haven't already, open up [GitHub](https://github.com) and log in.
 - From the [GitHub main page](https://github.com), click on the `New` button at the top left of the page.
 
-<img alt="Creating a new repository in GitHub" width="100%" src="../assets/img/lessons/github1.png">
+<img alt="Creating a new repository in GitHub" width="60%" src="../assets/img/lessons/github1.png">
 
 - Provide a name for your repository.
   - There are some characters that are not allowed in your repository name, such as spaces and certain symbols.
@@ -48,7 +48,7 @@ We need to create a blank repository in GitHub to connect our local Git reposito
 
 ## Pushing our Existing Repository
 
-- After creating the repository, you should now see some instructions to create a new repository or push an existing one.
+After creating the repository, you should now see some instructions to create a new repository or push an existing one.
 - Copy the commands outlined under **...or push an existing repository from the command line** one line at a time into your Git terminal.
 
 <img alt="Instructions for pushing an existing repository" width="100%" src="../assets/img/lessons/github3.png">
@@ -57,13 +57,12 @@ We need to create a blank repository in GitHub to connect our local Git reposito
 git remote add origin https://github.com/username/hello-world.git
 ```
 
-{: .note }
-Copy the URL from your own GitHub repository. Make sure to use your own username where it says `username`.
+- Make sure to copy the URL from your own GitHub repository's instructions.
 
 ```bash
 git branch -M main
 ```
-- This line renames our default branch to "main", in the case that it was still "master".
+- The line above renames our default branch to "main", in the case that it was still "master".
 
 ```bash
 git push -u origin main
@@ -89,9 +88,10 @@ Pull
 
 ### Pushing to GitHub
 
-Let's make some changes to our `note.txt`. Add a line of text, remove a line, or perhaps rename the file.
+Let's make some changes to our `note.txt`. 
 
-Commit your changes.
+- Add a line of text, remove a line, or perhaps rename the file.
+- Commit your changes.
 
 {: .note-title }
 > Reminder
@@ -100,7 +100,7 @@ Commit your changes.
 
 If you take a look at the remote repository on GitHub, you’ll notice that `note.txt` has not changed since your last commit. That’s because we have not yet pushed our changes.
 
-To push our changes, we use the `git push` command.
+- To push our changes, use the `git push` command.
 
 ```bash
 git push

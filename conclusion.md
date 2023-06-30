@@ -24,7 +24,7 @@ You should now be able to:
 To learn more about any particular topic, take a look at the links below.
 
 ## Creating Websites on GitHub
-If you're interested in learning how to create and host websites on GitHub see:
+If you're interested in learning how to create and host websites on GitHub, see:
 - [Getting Started with GitHub and GitHub Pages](https://scds.github.io/github-pages/) from SCDS.
 
 ## More about Version Control with Git

@@ -26,10 +26,11 @@ Add, edit, or remove any content below for the workshop in question. -->
 </details>
 
 <!-- Here are your learning objectives. Just like in the introduction, but more specific for this lesson. -->
-<!-- ## Lesson Objectives
+## Lesson Objectives
 - Set up Git
 - Create a Git repository
-- Track changes to the Git repository -->
+- Commit changes to a Git repository
+- View a log of changes made
 
 <!-- A video for your lesson (if applicable) -->
 <!-- ## Lesson Video
@@ -67,7 +68,7 @@ git config --global user.name "Your Name"
 git config --global user.email "yourname@domain.name"
 ```
 
-Simply replace "Your Name" with your desired username and "yourname@domain.name" with your email. If there is no output, that means the command succeeded. This is often the case with command-line interfaces.
+Replace "Your Name" with your desired username and "yourname@domain.name" with your email. If there is no output, that means the command succeeded. This is often the case with command-line interfaces.
 
 Now, if you check the config list again, you should see that your username and email are set.
 
@@ -207,7 +208,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 ```
 </div>
 
-Git automatically detected that there have been changes made (creation of note.txt), but it says that they're untracked. To add it to our tracked files, we need to use `git add`.
+Git automatically detected that there have been changes made (creation of `note.txt`), but it says that they're untracked. To add it to our tracked files, we need to use `git add`.
 
 ```bash
 git add note.txt
@@ -321,7 +322,7 @@ Date:   Mon Jun 26 14:39:50 2023 -0400
 
 Let's create another commit to see how `git log` changes. Edit `note.txt` again in whatever way you'd like. 
 
-If you simply want to add **all** changes and commit them in one line, use `git commit -ma "message"`. This will stage all changes and commit them.
+If you simply want to add **all** changes and commit them in one line, use `git commit -am "message"`. This will stage all changes and commit them.
 
 <div class="code-example" markdown="1">
 
