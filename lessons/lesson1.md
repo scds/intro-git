@@ -319,7 +319,7 @@ Date:   Mon Jun 26 14:39:50 2023 -0400
 ```
 </div>
 
-Let's create another commit to see how our git log changes. Edit `note.txt` again in whatever way you'd like. 
+Let's create another commit to see how `git log` changes. Edit `note.txt` again in whatever way you'd like. 
 
 If you simply want to add **all** changes and commit in one line, use `git commit -ma "message"`. This will stage all changes and commit them.
 

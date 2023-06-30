@@ -37,7 +37,7 @@ Doing version control manually does create some problems.
 - It’s harder to keep track of which file has what changes.
 - How will this work for collaborative files?
 
-Version control systems (like git!) fix a lot of these problems. They automate a lot of the tedious parts of version control and they also provide a lot of tools to help with versioning. Some of the benefits of using a version control system include:
+Version control systems (like Git!) fix a lot of these problems. They automate a lot of the tedious parts of version control and they also provide a lot of tools to help with versioning. Some of the benefits of using a version control system include:
 
 Collaboration
 : Provides easier ways to merge changes together in collaborative settings
@@ -61,7 +61,7 @@ Git and GitHub are often used interchangeably, however, they are different thing
 
 ### Git
 
-Git is one of the most used version control systems around. It's used by big companies and individuals alike. Traditionally, Git is used in a command-line interface. However, many graphical interface tools based on git have been created, providing an easier way for many to interact with Git. While these tools make it easier to use Git, using a command-line interface can usually give you more power than any graphical interface can.
+Git is one of the most used version control systems around. It's used by big companies and individuals alike. Traditionally, Git is used in a command-line interface. However, many graphical interface tools based on Git have been created, providing an easier way for many to interact with Git. While these tools make it easier to use Git, using a command-line interface can usually give you more power than any graphical interface can.
 
 <br>
 
