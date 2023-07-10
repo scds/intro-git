@@ -23,10 +23,9 @@ You should now be able to:
 # Additional Resources
 To learn more about any particular topic, take a look at the links below.
 
-## Creating Websites on GitHub
-If you're interested in learning how to create and host websites on GitHub, see:
-- [Getting Started with GitHub and GitHub Pages](https://scds.github.io/github-pages/) from SCDS.
-
 ## More about Version Control with Git
 - [Official Git documentation page](https://git-scm.com/book/en/v2/)
 - [The Smart Ways to Correct Mistakes in Git](https://css-tricks.com/the-smart-ways-to-correct-mistakes-in-git/)
+
+## Related Workshops
+- [Getting Started with GitHub and GitHub Pages](https://scds.github.io/github-pages/) from SCDS.
