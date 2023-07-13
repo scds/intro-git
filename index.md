@@ -15,7 +15,7 @@ Add, edit, or remove any content below for the workshop in question. -->
 <img src="assets/img/titleSlide.png" alt="Workshop Title Slide" width="100%">
 
 <!-- Main header -->
-# Introduction to Git
+# Introduction to Version Control with Git
 
 Come learn about Git! Git is a version control system widely used in software engineering, academia, and anywhere where projects need reliable and granular versioning – especially when the projects need to scale to thousands of contributors. 
 
@@ -25,9 +25,7 @@ Presentation by John Fink, Digital Scholarship Librarian. [Book an appointment w
 
 The module content is derived and adapted from [The Carpentries](https://carpentries.org/).
 
-
 ## Prerequisites
-
 <!-- If creating or installing is covered in the module (preparation), mention that in brackets. -->
 - A [GitHub.com](https://www.github.com) account
 - An installation of [Git](https://git-scm.com/) (this will be covered in the Preparation page)

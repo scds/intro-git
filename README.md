@@ -1,5 +1,5 @@
-# Introduction to Git
-Materials for the DASH workshop: **Introduction to Git**  
+# Introduction to Version Control with Git
+Materials for the DASH workshop: **Introduction to Version Control with Git**  
 
 This repository contains workshop files, as well as files used to create the [workshop webpage](https://scds.github.io/intro-git) with GitHub Pages. 
 
