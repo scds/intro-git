@@ -28,4 +28,4 @@ To learn more about any particular topic, take a look at the links below.
 - [The Smart Ways to Correct Mistakes in Git](https://css-tricks.com/the-smart-ways-to-correct-mistakes-in-git/)
 
 ## Related Workshops
-- [Getting Started with GitHub and GitHub Pages](https://scds.github.io/github-pages/) from SCDS.
+- [Getting Started with GitHub and GitHub Pages](https://scds.github.io/github-pages/)
