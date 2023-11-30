@@ -1,0 +1,4 @@
+# Add "--config _config.yml,_config_dev.yml" flag to `jekyll build` or `bundle exec jekyll serve` command to use _config_dev.yml in for local development
+
+## Disable Google Analytics for local development
+ga_tracking: "" 

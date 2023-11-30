@@ -17,9 +17,21 @@ Workshop live recordings are listed here. They are provided as an **alternative*
 <!-- ----------------------------------------------------------------- -->
 
 <details markdown="1">
+<summary>November 2023</summary> <!-- Change "Month Year" with the date of the recording ---> 
+<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/5f36c9fb-37c7-4917-be9e-342aee9b9ac6/public"></iframe>
+[View original here.](https://echo360.ca/media/5f36c9fb-37c7-4917-be9e-342aee9b9ac6/public)
+
+Presentation by John Fink, Digital Scholarship Librarian, and Chelsea Miya, Postdoctoral Fellow. [Book an appointment with John or another member of the SCDS Team.](https://libcal.mcmaster.ca/appointments/)
+</details>
+
+<!-- ----------------------------------------------------------------- -->
+
+<details markdown="1">
 <summary>April 2023</summary> <!-- Change "Month Year" with the date of the recording ---> 
 <iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/920779d4-4319-49f1-9b3a-d5c9ebb33723/public"></iframe>
 [View original here.](https://echo360.ca/media/920779d4-4319-49f1-9b3a-d5c9ebb33723/public)
+
+Presentation by John Fink, Digital Scholarship Librarian. [Book an appointment with John or another member of the SCDS Team.](https://libcal.mcmaster.ca/appointments/)
 </details>
 
 <!-- ----------------------------------------------------------------- -->
@@ -28,4 +40,6 @@ Workshop live recordings are listed here. They are provided as an **alternative*
 <summary>October 2021</summary>
 <iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/6c617415-72fc-42be-8acd-ce9c7c1dad02/public"></iframe>
 [View original here.](https://echo360.ca/media/6c617415-72fc-42be-8acd-ce9c7c1dad02/public)
+
+Presentation by John Fink, Digital Scholarship Librarian. [Book an appointment with John or another member of the SCDS Team.](https://libcal.mcmaster.ca/appointments/)
 </details>
